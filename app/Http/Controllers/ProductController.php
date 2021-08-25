@@ -53,7 +53,10 @@ class ProductController extends Controller
         return response()->json([
             'products' => [
                 'name' => 'Baju mantap',
-                'price' => 1231293
+                'price' => 1231293,
+                'name' => 'Sepatu bekas mario',
+                'price' => 16000
+
             ],
         ], 200);
     }
