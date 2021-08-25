@@ -50,7 +50,12 @@ class ProductController extends Controller
      */
     public function show($id)
     {
-        //
+        return response()->json([
+            'products' => [
+                'name' => 'Baju mantap',
+                'price' => 1231293
+            ],
+        ], 200);
     }
 
     /**
@@ -61,7 +66,7 @@ class ProductController extends Controller
      */
     public function edit($id)
     {
-        //
+        // 
     }
 
     /**
